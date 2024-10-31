@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú  de tenis</title> 
+ 
+    <style>
+        body {
+            background-image: url(https://mexico.anahuac.mx/hubfs/%C2%BFQue%CC%81-carreras-universitarias-puedes-estudiar-en-CDMX--2.jpg );
+       background-size: cover;    
+       font-family: Arial, sans-serif;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #d3edff;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgb(151, 128, 255);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: rgb(0, 0, 0);
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #5c8acf;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .dropdown:hover .dropbtn {
+            background-color: #f73a73;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Carreras a Estudiar</h2>
+
+<div class="dropdown">
+    <button class="dropbtn">Carreras Mejor pagadas</button>
+    <div class="dropdown-content">
+        <a href="ARQ.HTML">Arquitectura</a>
+        <a href="INGSOFTWARE.HTML">Ingeneria en Software</a>
+        <a href="MEDICINA.HTML">Medicina</a>
+        
+    </div>
+</div>
+
+<div class="dropdown">
+    <button class="dropbtn">Carrera medias</button>
+    <div class="dropdown-content">
+        <a href="ADMI.HTML">Administración de Empresas</a>
+        <a href="PSICOLOGIA.HTML">Psicología</a>
+     
+    </div>
+</div>
+
+<div class="dropdown">
+    <button class="dropbtn">Carreras no mejor pagadas</button>
+    <div class="dropdown-content">
+        <a href="LENGUAS.HTML">Licenciatura en Lenguas</a>
+    </div>
+</div>
+
+</body>
+</html>
